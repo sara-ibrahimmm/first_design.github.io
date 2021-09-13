@@ -128,7 +128,12 @@ body {
     top: -33px;
 }
 .header .links ul li {
+    width:200px;
+}
+.header .links ul li a {
+    display:inline-block;
     padding:20px;
+    padding-right:120px;
 }
 .header .links ul li a {
     text-decoration:none;
@@ -136,7 +141,7 @@ body {
     transition:0.3s;
 }
 .header .links ul li:hover a {
-    padding-left:15px;
+    padding-left:35px;
 }
 .header .links ul li:not(li:last-child) {
     border-bottom: 1px solid #ddd;
@@ -259,7 +264,7 @@ body {
     height: calc(100% - 100px);
     background-color: var(--secondry-color);
     right: 20px;
-    top: -65px;
+    top: -32px;
     z-index: -1;
 }
 /* End services */
